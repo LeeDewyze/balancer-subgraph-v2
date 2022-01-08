@@ -143,3 +143,13 @@ Deploy locally
 ```
 yarn deploy:local
 ```
+
+### Run the command
+
+Deploy graph for Fuji TestNet
+
+```bash
+yarn create:local:fuji
+yarn codegen
+deploy:local:fuji
+```
