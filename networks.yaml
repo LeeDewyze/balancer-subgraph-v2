@@ -236,3 +236,26 @@ polygonGrafted:
   AaveLinearPoolFactory:
     address: "0xdcdbf71A870cc60C6F9B621E28a7D3Ffd6Dd4965"
     startBlock: 3681582
+fuji:
+  network: fuji
+  Vault:
+    address: "0xF03DbD4dAfA410d7D1D5fcB129f362BD83910D2A"
+    startBlock: 4462776
+  WeightedPoolFactory:
+    address: "0xfE5B099ef5DC4b41f1574307AC782E4b3bef739F"
+    startBlock: 4462776
+  WeightedPool2TokenFactory:
+    address: "0x6F0882eA49fbeB5a35715F9d9D56DFAD513b4ac0"
+    startBlock: 4462776
+  StablePoolFactory:
+    address: "0x51Ea1fDF75Ad9867d4a1D9FE9fD82890B3D2Ec10"
+    startBlock: 4462776
+  MetaStablePoolFactory:
+    address: "0x6B735ad09731649B90995E416913489a691Ed3c5"
+    startBlock: 4462776
+  LiquidityBootstrappingPoolFactory:
+    address: "0x2A9D686a6F57936d5c5fD6E431CD3c8d10433005"
+    startBlock: 4462776
+  InvestmentPoolFactory:
+    address: "0xe37AC7F5f859C4ECac8F7Bf987E46C4dc006424B"
+    startBlock: 4462776
