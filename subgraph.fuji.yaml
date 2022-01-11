@@ -8,9 +8,9 @@ dataSources:
     name: Vault
     network: fuji
     source:
-      address: '0xF03DbD4dAfA410d7D1D5fcB129f362BD83910D2A'
+      address: '0x37110096A301A21C60567856AfBbdD1D43f047bB'
       abi: Vault
-      startBlock: 4462776
+      startBlock: 4703494
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.5
@@ -49,9 +49,9 @@ dataSources:
     name: WeightedPoolFactory
     network: fuji
     source:
-      address: '0xfE5B099ef5DC4b41f1574307AC782E4b3bef739F'
+      address: '0x139A87209D7cbc2883ab9446791E9e29327E4553'
       abi: WeightedPoolFactory
-      startBlock: 4462776
+      startBlock: 4703639
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.5
@@ -76,9 +76,9 @@ dataSources:
     name: WeightedPool2TokenFactory
     network: fuji
     source:
-      address: '0x6F0882eA49fbeB5a35715F9d9D56DFAD513b4ac0'
+      address: '0x0Cd59018564d36E65dddB588A9Ef68d2Bec3E2e8'
       abi: WeightedPoolFactory
-      startBlock: 4462776
+      startBlock: 4703682
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.5
@@ -103,9 +103,9 @@ dataSources:
     name: StablePoolFactory
     network: fuji
     source:
-      address: '0x51Ea1fDF75Ad9867d4a1D9FE9fD82890B3D2Ec10'
+      address: '0xbcf448Ac6138640a5a229e068133580304a85a4D'
       abi: StablePoolFactory
-      startBlock: 4462776
+      startBlock: 4703734
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.5
@@ -130,9 +130,9 @@ dataSources:
     name: MetaStablePoolFactory
     network: fuji
     source:
-      address: '0x6B735ad09731649B90995E416913489a691Ed3c5'
+      address: '0xF75B01095FB1429f686AA854cFe16697563bb36a'
       abi: MetaStablePoolFactory
-      startBlock: 4462776
+      startBlock: 4703772
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.5
@@ -159,9 +159,9 @@ dataSources:
     name: LiquidityBootstrappingPoolFactory
     network: fuji
     source:
-      address: '0x2A9D686a6F57936d5c5fD6E431CD3c8d10433005'
+      address: '0xABFDe15F295405DB0292e3ECBa5fB7956A03C04b'
       abi: LiquidityBootstrappingPoolFactory
-      startBlock: 4462776
+      startBlock: 4703820
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.5
@@ -188,9 +188,9 @@ dataSources:
     name: InvestmentPoolFactory
     network: fuji
     source:
-      address: '0xe37AC7F5f859C4ECac8F7Bf987E46C4dc006424B'
+      address: '0x3001de6F9df63877Ea31CF68f95A21B608f57446'
       abi: InvestmentPoolFactory
-      startBlock: 4462776
+      startBlock: 4703844
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.5

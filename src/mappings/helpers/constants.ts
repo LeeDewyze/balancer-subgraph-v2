@@ -14,6 +14,7 @@ export class AddressByNetwork {
   public goerli: string;
   public rinkeby: string;
   public polygon: string;
+  public fuji: string;
   public arbitrum: string;
   public dev: string;
 }
@@ -26,6 +27,7 @@ let vaultAddressByNetwork: AddressByNetwork = {
   goerli: '0x65748E8287Ce4B9E6D83EE853431958851550311',
   rinkeby: '0xBA12222222228d8Ba445958a75a0704d566BF2C8',
   polygon: '0xBA12222222228d8Ba445958a75a0704d566BF2C8',
+  fuji: '0x37110096A301A21C60567856AfBbdD1D43f047bB',
   arbitrum: '0xBA12222222228d8Ba445958a75a0704d566BF2C8',
   dev: '0xa0B05b20e511B1612E908dFCeE0E407E22B76028',
 };
@@ -36,6 +38,7 @@ let wethAddressByNetwork: AddressByNetwork = {
   goerli: '0x9A1000D492d40bfccbc03f413A48F5B6516Ec0Fd',
   rinkeby: '0xdFCeA9088c8A88A76FF74892C1457C17dfeef9C1',
   polygon: '0x7ceb23fd6bc0add59e62ac25578270cff1b9f619',
+  fuji: '0xf014304eE0B4Bbce1cA4bA0F6C8DFFEF7a45572e',
   arbitrum: '0x82aF49447D8a07e3bd95BD0d56f35241523fBab1',
   dev: '0x4CDDb3505Cf09ee0Fa0877061eB654839959B9cd',
 };
@@ -46,6 +49,7 @@ let wbtcAddressByNetwork: AddressByNetwork = {
   goerli: '0x78dEca24CBa286C0f8d56370f5406B48cFCE2f86',
   rinkeby: '0xc3dbf84Abb494ce5199D5d4D815b10EC29529ff8',
   polygon: '0x1bfd67037b42cf73acf2047067bd4f2c47d9bfd6',
+  fuji: '0xd2F7C1ed03158694fff1e533446F889400933cf2',
   arbitrum: '0x2f2a2543B76A4166549F7aaB2e75Bef0aefC5B0f',
   dev: '0xcD80986f08d776CE41698c47f705CDc99dDBfB0A',
 };
@@ -56,6 +60,7 @@ let usdAddressByNetwork: AddressByNetwork = {
   goerli: '0x78dEca24CBa286C0f8d56370f5406B48cFCE2f86',
   rinkeby: '0xc3dbf84Abb494ce5199D5d4D815b10EC29529ff8',
   polygon: '0x2791bca1f2de4661ed88a30c99a7a9449aa84174',
+  fuji: '0x524ec0abffc213C89D875B6290f74Bdd09edb949',
   arbitrum: '0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8',
   dev: '0x1528f3fcc26d13f7079325fb78d9442607781c8c',
 };
@@ -66,6 +71,7 @@ let usdcAddressByNetwork: AddressByNetwork = {
   goerli: '0x78dEca24CBa286C0f8d56370f5406B48cFCE2f86',
   rinkeby: '0xc3dbf84Abb494ce5199D5d4D815b10EC29529ff8',
   polygon: '0x2791bca1f2de4661ed88a30c99a7a9449aa84174',
+  fuji: '0x524ec0abffc213C89D875B6290f74Bdd09edb949',
   arbitrum: '0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8',
   dev: '0x7c0c5AdA758cf764EcD6bAC05b63b2482f90bBB2',
 };
@@ -76,6 +82,7 @@ let usdtAddressByNetwork: AddressByNetwork = {
   goerli: '0x78dEca24CBa286C0f8d56370f5406B48cFCE2f86',
   rinkeby: '0xc3dbf84Abb494ce5199D5d4D815b10EC29529ff8',
   polygon: '0xc2132D05D31c914a87C6611C10748AEb04B58e8F',
+  fuji: '0xc161fc9ba44D9FB8c6D8e545b07Bde1b686d6081',
   arbitrum: '0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9',
   dev: '0x7c0c5AdA758cf764EcD6bAC05b63b2482f90bBB2',
 };
@@ -86,6 +93,7 @@ let balAddressByNetwork: AddressByNetwork = {
   goerli: '0x78dEca24CBa286C0f8d56370f5406B48cFCE2f86',
   rinkeby: '0xc3dbf84Abb494ce5199D5d4D815b10EC29529ff8',
   polygon: '0x9a71012b13ca4d3d0cdc72a177df3ef03b0e76a3',
+  fuji: '0x6e2813cB5810be8A5f59730572A265f0E40379D3',
   arbitrum: '0x040d1EdC9569d4Bab2D15287Dc5A4F10F56a56B8',
   dev: '0xf702269193081364E355f862f2CFbFCdC5DB738C',
 };
@@ -96,69 +104,70 @@ let daiAddressByNetwork: AddressByNetwork = {
   goerli: '0x78dEca24CBa286C0f8d56370f5406B48cFCE2f86',
   rinkeby: '0xc3dbf84Abb494ce5199D5d4D815b10EC29529ff8',
   polygon: '0x8f3cf7ad23cd3cadbd9735aff958023239c6a063',
+  fuji: '0xd9652383991508f10e505d8f7D0652401b01e146',
   arbitrum: '0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1',
   dev: '0x5C0E66606eAbEC1df45E2ADd26C5DF8C0895a397',
 };
 
-let altDaiAddressByNetwork: AddressByNetwork = {
-  mainnet: '0x0000000000000000000000000000000000000000',
-  kovan: '0xFf795577d9AC8bD7D90Ee22b6C1703490b6512FD',
-  goerli: '0x0000000000000000000000000000000000000000',
-  rinkeby: '0x0000000000000000000000000000000000000000',
-  polygon: '0x0000000000000000000000000000000000000000',
-  arbitrum: '0x0000000000000000000000000000000000000000',
-  dev: '0x0000000000000000000000000000000000000000',
-};
+// let altDaiAddressByNetwork: AddressByNetwork = {
+//   mainnet: '0x0000000000000000000000000000000000000000',
+//   kovan: '0xFf795577d9AC8bD7D90Ee22b6C1703490b6512FD',
+//   goerli: '0x0000000000000000000000000000000000000000',
+//   rinkeby: '0x0000000000000000000000000000000000000000',
+//   polygon: '0x0000000000000000000000000000000000000000',
+//   arbitrum: '0x0000000000000000000000000000000000000000',
+//   dev: '0x0000000000000000000000000000000000000000',
+// };
 
-let altUsdcAddressByNetwork: AddressByNetwork = {
-  mainnet: '0x0000000000000000000000000000000000000000',
-  kovan: '0xe22da380ee6B445bb8273C81944ADEB6E8450422',
-  goerli: '0x0000000000000000000000000000000000000000',
-  rinkeby: '0x0000000000000000000000000000000000000000',
-  polygon: '0x0000000000000000000000000000000000000000',
-  arbitrum: '0x0000000000000000000000000000000000000000',
-  dev: '0x0000000000000000000000000000000000000000',
-};
+// let altUsdcAddressByNetwork: AddressByNetwork = {
+//   mainnet: '0x0000000000000000000000000000000000000000',
+//   kovan: '0xe22da380ee6B445bb8273C81944ADEB6E8450422',
+//   goerli: '0x0000000000000000000000000000000000000000',
+//   rinkeby: '0x0000000000000000000000000000000000000000',
+//   polygon: '0x0000000000000000000000000000000000000000',
+//   arbitrum: '0x0000000000000000000000000000000000000000',
+//   dev: '0x0000000000000000000000000000000000000000',
+// };
 
-let altUsdtAddressByNetwork: AddressByNetwork = {
-  mainnet: '0x0000000000000000000000000000000000000000',
-  kovan: '0x13512979ADE267AB5100878E2e0f485B568328a4',
-  goerli: '0x0000000000000000000000000000000000000000',
-  rinkeby: '0x0000000000000000000000000000000000000000',
-  polygon: '0x0000000000000000000000000000000000000000',
-  arbitrum: '0x0000000000000000000000000000000000000000',
-  dev: '0x0000000000000000000000000000000000000000',
-};
+// let altUsdtAddressByNetwork: AddressByNetwork = {
+//   mainnet: '0x0000000000000000000000000000000000000000',
+//   kovan: '0x13512979ADE267AB5100878E2e0f485B568328a4',
+//   goerli: '0x0000000000000000000000000000000000000000',
+//   rinkeby: '0x0000000000000000000000000000000000000000',
+//   polygon: '0x0000000000000000000000000000000000000000',
+//   arbitrum: '0x0000000000000000000000000000000000000000',
+//   dev: '0x0000000000000000000000000000000000000000',
+// };
 
-let linearDaiAddressByNetwork: AddressByNetwork = {
-  mainnet: '0x804CdB9116a10bB78768D3252355a1b18067bF8f',
-  kovan: '0xfcccb77a946b6a3bd59d149f083b5bfbb8004d6d',
-  goerli: '0x0000000000000000000000000000000000000000',
-  rinkeby: '0x0000000000000000000000000000000000000000',
-  polygon: '0x0000000000000000000000000000000000000000',
-  arbitrum: '0x0000000000000000000000000000000000000000',
-  dev: '0x0000000000000000000000000000000000000000',
-};
+// let linearDaiAddressByNetwork: AddressByNetwork = {
+//   mainnet: '0x804CdB9116a10bB78768D3252355a1b18067bF8f',
+//   kovan: '0xfcccb77a946b6a3bd59d149f083b5bfbb8004d6d',
+//   goerli: '0x0000000000000000000000000000000000000000',
+//   rinkeby: '0x0000000000000000000000000000000000000000',
+//   polygon: '0x0000000000000000000000000000000000000000',
+//   arbitrum: '0x0000000000000000000000000000000000000000',
+//   dev: '0x0000000000000000000000000000000000000000',
+// };
 
-let linearUsdcAddressByNetwork: AddressByNetwork = {
-  mainnet: '0x9210F1204b5a24742Eba12f710636D76240dF3d0',
-  kovan: '0x0bbd32b14a6503ee20f87df38cf2d5d3b59ea2f5',
-  goerli: '0x0000000000000000000000000000000000000000',
-  rinkeby: '0x0000000000000000000000000000000000000000',
-  polygon: '0x0000000000000000000000000000000000000000',
-  arbitrum: '0x0000000000000000000000000000000000000000',
-  dev: '0x0000000000000000000000000000000000000000',
-};
+// let linearUsdcAddressByNetwork: AddressByNetwork = {
+//   mainnet: '0x9210F1204b5a24742Eba12f710636D76240dF3d0',
+//   kovan: '0x0bbd32b14a6503ee20f87df38cf2d5d3b59ea2f5',
+//   goerli: '0x0000000000000000000000000000000000000000',
+//   rinkeby: '0x0000000000000000000000000000000000000000',
+//   polygon: '0x0000000000000000000000000000000000000000',
+//   arbitrum: '0x0000000000000000000000000000000000000000',
+//   dev: '0x0000000000000000000000000000000000000000',
+// };
 
-let linearUsdtAddressByNetwork: AddressByNetwork = {
-  mainnet: '0x2BBf681cC4eb09218BEe85EA2a5d3D13Fa40fC0C',
-  kovan: '0xe667d48618e71c2a02e4a1b66ed9def1426938b6',
-  goerli: '0x0000000000000000000000000000000000000000',
-  rinkeby: '0x0000000000000000000000000000000000000000',
-  polygon: '0x0000000000000000000000000000000000000000',
-  arbitrum: '0x0000000000000000000000000000000000000000',
-  dev: '0x0000000000000000000000000000000000000000',
-};
+// let linearUsdtAddressByNetwork: AddressByNetwork = {
+//   mainnet: '0x2BBf681cC4eb09218BEe85EA2a5d3D13Fa40fC0C',
+//   kovan: '0xe667d48618e71c2a02e4a1b66ed9def1426938b6',
+//   goerli: '0x0000000000000000000000000000000000000000',
+//   rinkeby: '0x0000000000000000000000000000000000000000',
+//   polygon: '0x0000000000000000000000000000000000000000',
+//   arbitrum: '0x0000000000000000000000000000000000000000',
+//   dev: '0x0000000000000000000000000000000000000000',
+// };
 
 function forNetwork(addressByNetwork: AddressByNetwork, network: string): Address {
   if (network == 'mainnet') {
@@ -173,6 +182,8 @@ function forNetwork(addressByNetwork: AddressByNetwork, network: string): Addres
     return Address.fromString(addressByNetwork.polygon);
   } else if (network == 'arbitrum-one') {
     return Address.fromString(addressByNetwork.arbitrum);
+  } else if (network == 'fuji') {
+    return Address.fromString(addressByNetwork.fuji);
   } else {
     return Address.fromString(addressByNetwork.dev);
   }
@@ -187,13 +198,27 @@ export let USDT: Address = forNetwork(usdtAddressByNetwork, network);
 export let BAL: Address = forNetwork(balAddressByNetwork, network);
 export let DAI: Address = forNetwork(daiAddressByNetwork, network);
 
-let ALT_DAI = forNetwork(altDaiAddressByNetwork, network);
-let ALT_USDC = forNetwork(altUsdcAddressByNetwork, network);
-let ALT_USDT = forNetwork(altUsdtAddressByNetwork, network);
-let LINEAR_DAI = forNetwork(linearDaiAddressByNetwork, network);
-let LINEAR_USDC = forNetwork(linearUsdcAddressByNetwork, network);
-let LINEAR_USDT = forNetwork(linearUsdtAddressByNetwork, network);
+// let ALT_DAI = forNetwork(altDaiAddressByNetwork, network);
+// let ALT_USDC = forNetwork(altUsdcAddressByNetwork, network);
+// let ALT_USDT = forNetwork(altUsdtAddressByNetwork, network);
+// let LINEAR_DAI = forNetwork(linearDaiAddressByNetwork, network);
+// let LINEAR_USDC = forNetwork(linearUsdcAddressByNetwork, network);
+// let LINEAR_USDT = forNetwork(linearUsdtAddressByNetwork, network);
 
+// export let PRICING_ASSETS: Address[] = [
+//   WETH,
+//   WBTC,
+//   USDC,
+//   DAI,
+//   USDT,
+//   BAL,
+//   ALT_DAI,
+//   ALT_USDC,
+//   ALT_USDT,
+//   LINEAR_DAI,
+//   LINEAR_USDC,
+//   LINEAR_USDT,
+// ];
 export let PRICING_ASSETS: Address[] = [
   WETH,
   WBTC,
@@ -201,11 +226,6 @@ export let PRICING_ASSETS: Address[] = [
   DAI,
   USDT,
   BAL,
-  ALT_DAI,
-  ALT_USDC,
-  ALT_USDT,
-  LINEAR_DAI,
-  LINEAR_USDC,
-  LINEAR_USDT,
 ];
-export let USD_STABLE_ASSETS: Address[] = [USDC, DAI, USDT, ALT_DAI, ALT_USDC, ALT_USDT];
+// export let USD_STABLE_ASSETS: Address[] = [USDC, DAI, USDT, ALT_DAI, ALT_USDC, ALT_USDT];
+export let USD_STABLE_ASSETS: Address[] = [USDC, DAI, USDT];
