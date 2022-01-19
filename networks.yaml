@@ -239,23 +239,23 @@ polygonGrafted:
 fuji:
   network: fuji
   Vault:
-    address: "0x37110096A301A21C60567856AfBbdD1D43f047bB"
-    startBlock: 4703494
+    address: "0xF20D313685665bf745B720FE81b927fAFcfB18A2"
+    startBlock: 5042626
   WeightedPoolFactory:
-    address: "0x139A87209D7cbc2883ab9446791E9e29327E4553"
-    startBlock: 4703639
+    address: "0x7700D6F43892ed726c47E899f4cbbB8239D4347E"
+    startBlock: 5042692
   WeightedPool2TokenFactory:
-    address: "0x0Cd59018564d36E65dddB588A9Ef68d2Bec3E2e8"
-    startBlock: 4703682
+    address: "0x01382FB56950655e42C17B73766c80e46b94fD53"
+    startBlock: 5042725
   StablePoolFactory:
-    address: "0xbcf448Ac6138640a5a229e068133580304a85a4D"
-    startBlock: 4703734
+    address: "0x24f9aa126aC08D0B6e682F9E2139F6112D6191F5"
+    startBlock: 5042768
   MetaStablePoolFactory:
-    address: "0xF75B01095FB1429f686AA854cFe16697563bb36a"
-    startBlock: 4703772
+    address: "0x5eEfBd248B09fAe7ECD581E11a62611239983658"
+    startBlock: 5043925
   LiquidityBootstrappingPoolFactory:
-    address: "0xABFDe15F295405DB0292e3ECBa5fB7956A03C04b"
-    startBlock: 4703820
+    address: "0x0f42B787F7d392E9f6b038B6F49dD7Ce8900be38"
+    startBlock: 5043952
   InvestmentPoolFactory:
-    address: "0x3001de6F9df63877Ea31CF68f95A21B608f57446"
-    startBlock: 4703844
+    address: "0x0902254896E1E7d9a43af8ED7F67c49bE6E04814"
+    startBlock: 5043976
