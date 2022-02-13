@@ -259,3 +259,26 @@ fuji:
   InvestmentPoolFactory:
     address: "0x0902254896E1E7d9a43af8ED7F67c49bE6E04814"
     startBlock: 5043976
+avalanche:
+  network: avalanche
+  Vault:
+    address: "todo Vault address here"
+    startBlock: todo startBlock of Vault here
+  WeightedPoolFactory:
+    address: "todo WeightedPoolFactory address here"
+    startBlock: todo startBlock of WeightedPoolFactory here
+  WeightedPool2TokenFactory:
+    address: "todo WeightedPool2TokenFactory address here"
+    startBlock: todo startBlock of WeightedPool2TokenFactory here
+  StablePoolFactory:
+    address: "todo StablePoolFactory address here"
+    startBlock: todo startBlock of StablePoolFactory here
+  MetaStablePoolFactory:
+    address: "todo MetaStablePoolFactory address here"
+    startBlock: todo startBlock of MetaStablePoolFactory here
+  LiquidityBootstrappingPoolFactory:
+    address: "todo LiquidityBootstrappingPoolFactory address here"
+    startBlock: todo startBlock of LiquidityBootstrappingPoolFactory here
+  InvestmentPoolFactory:
+    address: "todo InvestmentPoolFactory address here"
+    startBlock: todo startBlock of InvestmentFactory here
