@@ -256,6 +256,9 @@ fuji:
   LiquidityBootstrappingPoolFactory:
     address: "0x0f42B787F7d392E9f6b038B6F49dD7Ce8900be38"
     startBlock: 5043952
+  TempLiquidityBootstrappingPoolFactory:
+    address: "0x40E8fa5A3AECf6DD96288a3B1708dd66Ed50EF28"
+    startBlock: 7668908
   InvestmentPoolFactory:
     address: "0x0902254896E1E7d9a43af8ED7F67c49bE6E04814"
     startBlock: 5043976
@@ -279,6 +282,9 @@ avalanche:
   LiquidityBootstrappingPoolFactory:
     address: "todo LiquidityBootstrappingPoolFactory address here"
     startBlock: todo startBlock of LiquidityBootstrappingPoolFactory here
+  TempLiquidityBootstrappingPoolFactory:
+    address: "todo NoProtocolFeeLiquidityBootstrappingPoolFactory address here"
+    startBlock: todo startBlock of NoProtocolFeeLiquidityBootstrappingPoolFactory here
   InvestmentPoolFactory:
     address: "todo InvestmentPoolFactory address here"
     startBlock: todo startBlock of InvestmentFactory here
